@@ -1,0 +1,46 @@
+body {
+  background: #202028;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+canvas {
+  border: solid .2em #fff;
+  height: 90vh;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#score-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#rankings {
+  margin-top: 100px;
+}
+
+#game-over {
+  display: none;
+  position: fixed;
+  left: 400px;
+  top: 200px;
+  color: red;
+}
+
+#rankings-container {
+  margin-top: 10px;
+  height: 675px;
+  overflow-y: auto;
+  width: 300px;
+}
+
+#rankings-user {
+  width: 100px;
+}
